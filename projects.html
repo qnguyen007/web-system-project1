@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Quan Nguyen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <div class="logo-circle"></div>
+                <span>Quan Nguyen</span>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="projects-page">
+        <section class="projects-intro">
+            <h1>Featured Projects</h1>
+        </section>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <input type="checkbox" id="project1" class="project-toggle">
+                <div class="project-header">
+                    <h3>vCPU Scaling Controls</h3>
+                </div>
+                <div class="project-summary">
+                    <p class="project-meta">Hypervisors: vCenter • Hyper-V • Nutanix</p>
+                    <div class="project-tags">
+                        <span class="tag">Resize/Policy</span>
+                        <span class="tag">Regression</span>
+                        <span class="tag">Automation</span>
+                    </div>
+                    <label for="project1" class="view-details">View details →</label>
+                </div>
+                <div class="project-details">
+                    <ul>
+                        <li>Developed test plan for vCPU scaling policies; covered vCPU/vMEM actions.</li>
+                        <li>Increased automation coverage and stability of resize actions.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <input type="checkbox" id="project2" class="project-toggle">
+                <div class="project-header">
+                    <h3>IBM PowerVM Validation</h3>
+                </div>
+                <div class="project-summary">
+                    <p class="project-meta">Power8 • Power9 • Power10</p>
+                    <div class="project-tags">
+                        <span class="tag">Target Discovery</span>
+                        <span class="tag">Capacity & Usage</span>
+                    </div>
+                    <label for="project2" class="view-details">View details →</label>
+                </div>
+                <div class="project-details">
+                    <ul>
+                        <li>Validated discovered entities and capacity/usage accuracy.</li>
+                        <li>Tested PU/VP resize; ensured UI vs target parity.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <input type="checkbox" id="project3" class="project-toggle">
+                <div class="project-header">
+                    <h3>Multi-Cloud Platform Testing</h3>
+                </div>
+                <div class="project-summary">
+                    <p class="project-meta">AWS • Azure • Google Cloud</p>
+                    <div class="project-tags">
+                        <span class="tag">API</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">Global</span>
+                    </div>
+                    <label for="project3" class="view-details">View details →</label>
+                </div>
+                <div class="project-details">
+                    <ul>
+                        <li>Comprehensive suite validating cost optimization, scaling, and multi-tenancy.</li>
+                        <li>Validated cloud savings performance across AWS, Azure, and GCP.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>© 2025 Quan Nguyen</p>
+        </div>
+    </footer>
+</body>
+
+</html>
